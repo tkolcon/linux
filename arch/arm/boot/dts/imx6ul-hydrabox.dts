@@ -49,6 +49,7 @@
 	pinctrl-1 = <&pinctrl_i2c2_gpio>;
 	scl-gpios = <&gpio1 0 GPIO_ACTIVE_HIGH>;
 	sda-gpios = <&gpio1 1 GPIO_ACTIVE_HIGH>;
+	clock-frequency = <400000>;
 	status = "okay";	
 };
 
